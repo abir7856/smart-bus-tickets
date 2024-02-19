@@ -83,11 +83,11 @@ for (let className of classNames) {
 
 
     //  // Get references to the modal and Next button
-    //  const modal = document.getElementById("successModal");
-    //  // const nextModalButton = document.getElementById("nextButton");
+     const modal = document.getElementById("successModal");
+     // const nextModalButton = document.getElementById("nextButton");
 
-    //  // Function to open the modal
-    // //  function openModal() {
-    // //    modal.style.display = "flex justify-center";
-    // //  }
+     // Function to open the modal
+     function openModal() {
+       modal.style.display = "flex justify-center";
+     }
 
