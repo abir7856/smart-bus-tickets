@@ -1,0 +1,42 @@
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.seat:hover {
+  background: #0307121a;
+}
+.seat,
+.seat-staring {
+  border-radius: 12px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(247, 248, 248);
+  text-align: center;
+  color: rgba(3, 7, 18, 0.5);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  min-width: 110px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.seat-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  text-align: center;
+  color: rgba(3, 7, 18, 0.5);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  height: 60px;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
