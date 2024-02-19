@@ -21,58 +21,104 @@
 </head>
 
 <body class="raleway">
-    <header class="container mx-auto">
-        <!-- Nav Menu -->
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium">
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Destination</a></li>
-                            <li><a>Search</a></li>
-                        </ul>
-                    </div>
-                    <a class="btn btn-ghost text-4xl font-extrabold text-[#030712]">P-Ticket</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 font-medium">
-                        <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Destination</a></li>
-                            <li><a>Search</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                    <button class="btn btn-active bg-[#1DD1001A] border-0 text-[#1DD100] px-8">Bus <img src="images/bus-icon.png" alt=""> </button>
-                </div>
-            </div>
-        </nav>
-        <!-- Banner Section -->
-        <section class="container mx-auto">
-            <div class="banner">
-                <div class="hero py-56 px-36 max-h-[550px]" style="background-image: url(images/banner.png); background-size: cover;">
-                    <div class="hero-overlay bg-opacity-10"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                      <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
-                      </div>
-                    </div>
+    <header class="">
+        <!-- Nav -->
+        <div class="container lg:max-w-[1100px] mx-auto">
+          <nav>
+            <div class="navbar py-8 mt-5 bg-base-100">
+              <div class="navbar-start">
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pr-1 hover:bg-transparent">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
                   </div>
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <a
+                  class="btn btn-ghost raleway font-extrabold pl-0 text-xl md:text-2xl lg:text-4xl hover:bg-transparent">Bus-Ticket</a>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <!-- desktop menu -->
+                <ul class="menu menu-horizontal px-1 raleway font-semibold text-[17px] text-[rgba(3,7,18,0.7)]">
+                  <li>
+                    <a class="hover:bg-slate-200">Home</a>
+                  </li>
+                  <li><a class="hover:bg-slate-200">Destination</a></li>
+                  <li><a class="hover:bg-slate-200">Search</a></li>
+                  <li><a class="hover:bg-slate-200">About</a></li>
+                </ul>
+              </div>
+              <div class="navbar-end">
+                <a
+                  class="btn bg-[rgba(29,209,0,0.1)] border-1 text-[rgba(29,209,0,1)] hover:bg-[rgba(29,209,0,0.4)] hover:border-[rgba(29,209,0,0.4)] border-[rgba(29,209,0,0.4)] px-5 raleway font-bold text-lg lg:text-xl">Bus
+                  <img src="images/bus-icon.png" alt="" /></a>
+              </div>
             </div>
+          </nav>
+        </div>
+        <!----------------------------- Banner -------------------------------->
+        <section class="mb-20 container lg:max-w-[1100px] mx-auto">
+          <div
+            class="text-center bg-[url(images/banner.png)] lg:h-[500px] h-[400px] flex flex-col items-center justify-center gap-5 rounded-[30px]">
+            <h1 class="lg:text-6xl text-5xl font-extrabold text-white">
+              End-to-End Travel With
+            </h1>
+            <h2 class="text-[rgb(29,209,0)] lg:text-6xl text-5xl font-extrabold">
+              P Paribahan
+            </h2>
+            <p class="text-white">
+              Yes, you can run unit tests and view the results directly within the
+              app. The <br />
+              integrated testing features allow for a streamlined .
+            </p>
+            <a href="#"
+              class="btn bg-[rgb(29,209,0)] raleway font-bold lg:px-10 lg:btn-lg btn-md hover:bg-[rgb(29,209,0)] lg:text-lg border-0">Buy
+              Tickets</a>
+          </div>
+          <!-- Banner Cards -->
+          <div class="lg:mt-[-50px] max-w-[900px] mx-auto mt-4">
+            <div class="flex justify-evenly gap-5 flex-col lg:flex-row">
+              <!-- card 1 -->
+              <div class="border-b-[rgb(29,209,0)] border-b-2 rounded-3xl flex p-5 gap-4 bg-white flex-1">
+                <div>
+                  <img src="images/people.png" alt="people" />
+                </div>
+                <div>
+                  <h5 class="inter font-bold text-4xl">500K+</h5>
+                  <p class="inter text-gray-400 text-sm">Registered users</p>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="border-b-[rgb(29,209,0)] border-b-2 rounded-3xl flex p-5 gap-4 bg-white flex-1">
+                <div>
+                  <img src="images/ticket-cupon.png" alt="people" />
+                </div>
+                <div>
+                  <h5 class="inter font-bold text-4xl">1.7 lacks</h5>
+                  <p class="inter text-gray-400 text-sm">Tickets sold</p>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div class="border-b-[rgb(29,209,0)] border-b-2 rounded-3xl flex p-5 gap-4 bg-white flex-1">
+                <div>
+                  <img src="images/stoppage.png" alt="people" />
+                </div>
+                <div>
+                  <h5 class="inter font-bold text-4xl">80K+</h5>
+                  <p class="inter text-gray-400 text-sm">Rental Partners</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-    </header>
+      </header>
     <main>
 
     </main>
