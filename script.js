@@ -80,10 +80,14 @@ for (let className of classNames) {
   });
 }
 
-/*
-step-1: select kora value get kora
-step-2: loop chalaya store theke value get kora
-step-3: condition chaliya check kora value ase ki na
-step-4: jodi thake then add na kora and jodi na thake then add kora
 
-*/
+
+    //  // Get references to the modal and Next button
+    //  const modal = document.getElementById("successModal");
+    //  // const nextModalButton = document.getElementById("nextButton");
+
+    //  // Function to open the modal
+    // //  function openModal() {
+    // //    modal.style.display = "flex justify-center";
+    // //  }
+
